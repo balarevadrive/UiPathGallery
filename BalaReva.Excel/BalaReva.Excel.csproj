@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{677FC488-D730-445A-84B7-261A62B7C990}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BalaReva.Excel</RootNamespace>
+    <AssemblyName>BalaReva.Excel</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>DLL\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BaseCommnet.cs" />
+    <Compile Include="Base\BaseExcel.cs" />
+    <Compile Include="Base\BaseExcelNew.cs" />
+    <Compile Include="Base\ShowOptions.cs" />
+    <Compile Include="Charts\BarChart.cs" />
+    <Compile Include="Base\BaseChart.cs" />
+    <Compile Include="Base\ChartSize.cs" />
+    <Compile Include="Charts\ColumnChart.cs" />
+    <Compile Include="Charts\LineChart.cs" />
+    <Compile Include="Charts\PieChart.cs" />
+    <Compile Include="Comment\DeleteComment.cs" />
+    <Compile Include="Comment\GetComment.cs" />
+    <Compile Include="Comment\ShowHideComment.cs" />
+    <Compile Include="Enums\AlignmentEnum.cs" />
+    <Compile Include="Enums\ColumnChartEnum.cs" />
+    <Compile Include="Enums\CommentEnums.cs" />
+    <Compile Include="Enums\HideEnum.cs" />
+    <Compile Include="Enums\DataLabelsEnum.cs" />
+    <Compile Include="Enums\BarChartEnum.cs" />
+    <Compile Include="Enums\LineChartEnum.cs" />
+    <Compile Include="Enums\PieChartEnum.cs" />
+    <Compile Include="Enums\ProtectUnProtectEnum.cs" />
+    <Compile Include="Enums\XlSheetVisibilityEnum.cs" />
+    <Compile Include="External\ClipboardToDatatable.cs" />
+    <Compile Include="External\CopyData.cs" />
+    <Compile Include="External\DeleteData.cs" />
+    <Compile Include="Hide_Unhide\RowHide.cs" />
+    <Compile Include="Interfaces\Base\IBaseCommnet.cs" />
+    <Compile Include="Interfaces\Base\IChartSize.cs" />
+    <Compile Include="Interfaces\Base\IShowOptions.cs" />
+    <Compile Include="Interfaces\Charts\IBarChart.cs" />
+    <Compile Include="Interfaces\Base\IChart.cs" />
+    <Compile Include="Interfaces\Charts\IColumnChart.cs" />
+    <Compile Include="Interfaces\Charts\ILineChart.cs" />
+    <Compile Include="Interfaces\Charts\IPieChart.cs" />
+    <Compile Include="Hide_Unhide\ColumnHide.cs" />
+    <Compile Include="Comment\AddComment.cs" />
+    <Compile Include="Sheets\AddSheet.cs" />
+    <Compile Include="Sheets\CopyToFile.cs" />
+    <Compile Include="Sheets\CopyToWorkBook.cs" />
+    <Compile Include="Sheets\DeleteSheet.cs" />
+    <Compile Include="Others\ExcelToAccess.cs" />
+    <Compile Include="Others\MergeCells.cs" />
+    <Compile Include="Others\RenameSheet.cs" />
+    <Compile Include="Others\SetPassword.cs" />
+    <Compile Include="Others\UnMergeCells.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sheets\HideUnhideWorkSheet.cs" />
+    <Compile Include="Sheets\InsertImage.cs" />
+    <Compile Include="Sheets\ProtectUnProtectSheet.cs" />
+    <Compile Include="WorkBook\CreateWorkBook.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{00000205-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="DAO">
+      <Guid>{00025E01-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access">
+      <Guid>{4AFFC9A0-5F99-101B-AF4E-00AA003F0F07}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BalaReva.Excel.Design\BalaReva.Excel.Design.csproj">
+      <Project>{310ee3a7-34e5-4ad0-a5ea-5e81baf08780}</Project>
+      <Name>BalaReva.Excel.Design</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="DLL\Microsoft.Office.Interop.Excel.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

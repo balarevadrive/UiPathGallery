@@ -1,0 +1,10 @@
+C:\TestProject\UiPath Publishment\NumberFormator\bin\Release\Formater.dll
+C:\TestProject\UiPath Publishment\NumberFormator\bin\Release\Formater.pdb
+C:\TestProject\UiPath Publishment\NumberFormator\obj\Release\Formater.dll
+C:\TestProject\UiPath Publishment\NumberFormator\obj\Release\Formater.pdb
+C:\TestProject\UiPath Publishment\NumberFormator\obj\Release\NumberFormator.csprojResolveAssemblyReference.cache
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\NumberFormator\bin\Release\Formater.dll
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\NumberFormator\bin\Release\Formater.pdb
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\NumberFormator\obj\Release\NumberFormator.csprojResolveAssemblyReference.cache
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\NumberFormator\obj\Release\Formater.dll
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\NumberFormator\obj\Release\Formater.pdb

@@ -1,0 +1,6 @@
+C:\TestProject\UiPath Publishment\BalaReva.Pdf\bin\Debug\BalaReva.PDF.dll
+C:\TestProject\UiPath Publishment\BalaReva.Pdf\bin\Debug\BalaReva.PDF.pdb
+C:\TestProject\UiPath Publishment\BalaReva.Pdf\bin\Debug\SautinSoft.Document.dll
+C:\TestProject\UiPath Publishment\BalaReva.Pdf\obj\Debug\BalaReva.PDF.csprojResolveAssemblyReference.cache
+C:\TestProject\UiPath Publishment\BalaReva.Pdf\obj\Debug\BalaReva.PDF.dll
+C:\TestProject\UiPath Publishment\BalaReva.Pdf\obj\Debug\BalaReva.PDF.pdb

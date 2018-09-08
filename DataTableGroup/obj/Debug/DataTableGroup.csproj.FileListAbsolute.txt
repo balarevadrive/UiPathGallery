@@ -1,0 +1,5 @@
+C:\TestProject\UiPath Publishment\DataTableGroup\bin\Debug\DataTableExtensions.Activities.dll
+C:\TestProject\UiPath Publishment\DataTableGroup\bin\Debug\DataTableExtensions.Activities.pdb
+C:\TestProject\UiPath Publishment\DataTableGroup\obj\Debug\DataTableGroup.csprojResolveAssemblyReference.cache
+C:\TestProject\UiPath Publishment\DataTableGroup\obj\Debug\DataTableExtensions.Activities.dll
+C:\TestProject\UiPath Publishment\DataTableGroup\obj\Debug\DataTableExtensions.Activities.pdb

@@ -1,0 +1,7 @@
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint\bin\Debug\BalaReva.PowerPoint.dll
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint\bin\Debug\BalaReva.PowerPoint.pdb
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint\bin\Debug\BalaReva.PowerPoint.Design.dll
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint\bin\Debug\BalaReva.PowerPoint.Design.pdb
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint\obj\Debug\BalaReva.PowerPoint.csprojResolveAssemblyReference.cache
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint\obj\Debug\BalaReva.PowerPoint.dll
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint\obj\Debug\BalaReva.PowerPoint.pdb

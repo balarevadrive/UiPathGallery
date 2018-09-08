@@ -1,0 +1,4 @@
+C:\TestProject\UiPath Publishment\NumberFormator\bin\Debug\Formater.dll
+C:\TestProject\UiPath Publishment\NumberFormator\bin\Debug\Formater.pdb
+C:\TestProject\UiPath Publishment\NumberFormator\obj\Debug\Formater.dll
+C:\TestProject\UiPath Publishment\NumberFormator\obj\Debug\Formater.pdb

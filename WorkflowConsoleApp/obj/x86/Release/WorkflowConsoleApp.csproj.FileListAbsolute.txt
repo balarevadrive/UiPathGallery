@@ -1,0 +1,2 @@
+C:\TestProject\UiPath Publishment\WorkflowConsoleApp\bin\Release\WorkflowConsoleApp.exe.config
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\WorkflowConsoleApp\bin\Release\WorkflowConsoleApp.exe.config

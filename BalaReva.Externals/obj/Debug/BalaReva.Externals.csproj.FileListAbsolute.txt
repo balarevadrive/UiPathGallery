@@ -1,0 +1,10 @@
+C:\TestProject\UiPath Publishment\BalaReva.Externals\bin\Debug\Dlls\Newtonsoft.Json.dll
+C:\TestProject\UiPath Publishment\BalaReva.Externals\bin\Debug\BalaReva.Externals.dll
+C:\TestProject\UiPath Publishment\BalaReva.Externals\bin\Debug\BalaReva.Externals.pdb
+C:\TestProject\UiPath Publishment\BalaReva.Externals\bin\Debug\BalaReva.Externals.Design.dll
+C:\TestProject\UiPath Publishment\BalaReva.Externals\bin\Debug\Ionic.Zip.dll
+C:\TestProject\UiPath Publishment\BalaReva.Externals\bin\Debug\Newtonsoft.Json.dll
+C:\TestProject\UiPath Publishment\BalaReva.Externals\bin\Debug\BalaReva.Externals.Design.pdb
+C:\TestProject\UiPath Publishment\BalaReva.Externals\obj\Debug\BalaReva.Externals.csprojResolveAssemblyReference.cache
+C:\TestProject\UiPath Publishment\BalaReva.Externals\obj\Debug\BalaReva.Externals.dll
+C:\TestProject\UiPath Publishment\BalaReva.Externals\obj\Debug\BalaReva.Externals.pdb

@@ -1,0 +1,113 @@
+﻿<sap:ActivityDesigner x:Class="BalaReva.PowerPoint.Design.InsertPictureDesign"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="clr-namespace:System;assembly=mscorlib"
+    xmlns:sa="clr-namespace:System.Activities;assembly=System.Activities"
+    xmlns:sap="clr-namespace:System.Activities.Presentation;assembly=System.Activities.Presentation"
+    xmlns:sapv="clr-namespace:System.Activities.Presentation.View;assembly=System.Activities.Presentation"
+    xmlns:sapc="clr-namespace:System.Activities.Presentation.Converters;assembly=System.Activities.Presentation">
+    <sap:ActivityDesigner.Resources>
+        <sapc:ArgumentToExpressionConverter x:Key="ArgumentToExpressionConverter"></sapc:ArgumentToExpressionConverter>
+        <DataTemplate x:Key="Collapsed">
+            <StackPanel HorizontalAlignment="Center" >
+                <TextBlock HorizontalAlignment="Center">Double click to view</TextBlock>
+            </StackPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="Expanded">
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Column="0" Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="File " 
+                       Grid.Row ="0" Grid.Column="0" Height="16" />
+                        <sapv:ExpressionTextBox 
+                    Name="OldFilePath"
+                    Expression="{Binding Path=ModelItem.FilePath, Mode=TwoWay, Converter={StaticResource ArgumentToExpressionConverter}, ConverterParameter=In }"
+                    ExpressionType="s:String"
+                    HintText="PowerPoint file selection"
+                    OwnerActivity="{Binding Path=ModelItem}"
+                    Width="360"    
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    MaxLines="1" />
+                        <Button DockPanel.Dock="Right" 
+                    Name="btnFile"
+                        Padding="6,0,6,0" 
+                        Width="25"
+                        Grid.Row="0"
+                    Click="btnFile_Click"
+                        Grid.Column="2">...</Button>
+                    </Grid>
+
+                    <Grid Grid.Column="0" Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="15"/>
+                        </Grid.RowDefinitions>
+                    </Grid>
+                    <Grid Grid.Column="0" Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Image Path" 
+                       Grid.Row ="1" Grid.Column="0" Height="16" />
+                        <sapv:ExpressionTextBox 
+                        Name="DirectoryToSave"
+                        Expression="{Binding Path=ModelItem.ImagePath, Mode=TwoWay, Converter={StaticResource ArgumentToExpressionConverter}, ConverterParameter=In }"
+                        ExpressionType="s:String"
+                        HintText="Folder name"
+                        OwnerActivity="{Binding Path=ModelItem}"
+                        Margin="2"
+                        Width="360"    
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        MaxLines="1" />
+                        <Button DockPanel.Dock="Right" 
+                    Name="btnImage"
+                        Padding="6,0,6,0" 
+                        Width="25"
+                        Click="btnImage_Click"  
+                        Grid.Row="0"
+                        Grid.Column="2">...</Button>
+                    </Grid>
+
+                </Grid>
+            </StackPanel>
+        </DataTemplate>
+        <Style x:Key="ExpandOrCollapsedStyle" TargetType="{x:Type ContentPresenter}">
+            <Setter Property="ContentTemplate" Value="{DynamicResource Collapsed}"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=ShowExpanded}" Value="true">
+                    <Setter Property="ContentTemplate" Value="{DynamicResource Expanded}"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </sap:ActivityDesigner.Resources>
+    <Grid>
+        <ContentPresenter Style="{DynamicResource ExpandOrCollapsedStyle}" Content="{Binding}" />
+    </Grid>
+    </sap:ActivityDesigner>

@@ -1,0 +1,9 @@
+C:\TestProject\UiPath Publishment\BalaReva.Access\bin\Debug\BalaReva.Access.dll
+C:\TestProject\UiPath Publishment\BalaReva.Access\bin\Debug\BalaReva.Access.pdb
+C:\TestProject\UiPath Publishment\BalaReva.Access\obj\Debug\BalaReva.Access.csprojResolveAssemblyReference.cache
+C:\TestProject\UiPath Publishment\BalaReva.Access\obj\Debug\Interop.ADODB.dll
+C:\TestProject\UiPath Publishment\BalaReva.Access\obj\Debug\BalaReva.Access.csproj.ResolveComReference.cache
+C:\TestProject\UiPath Publishment\BalaReva.Access\obj\Debug\BalaReva.Access.dll
+C:\TestProject\UiPath Publishment\BalaReva.Access\obj\Debug\BalaReva.Access.pdb
+C:\TestProject\UiPath Publishment\BalaReva.Access\bin\Debug\BalaReva.Access.Design.dll
+C:\TestProject\UiPath Publishment\BalaReva.Access\bin\Debug\BalaReva.Access.Design.pdb

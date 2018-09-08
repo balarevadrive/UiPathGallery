@@ -1,0 +1,17 @@
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\bin\Release\BalaReva.Externals.Design.dll
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\bin\Release\BalaReva.Externals.Design.pdb
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Release\BalaReva.Externals.Design.csprojResolveAssemblyReference.cache
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Release\UnZipFileDesign.baml
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Release\UnZipFileDesign.g.cs
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Release\BalaReva.Externals.Design_MarkupCompile.cache
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Release\BalaReva.Externals.Design.g.resources
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Release\BalaReva.Externals.Design.dll
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Release\BalaReva.Externals.Design.pdb
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\BalaReva.Externals.Design\bin\Release\BalaReva.Externals.Design.dll
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\BalaReva.Externals.Design\bin\Release\BalaReva.Externals.Design.pdb
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\BalaReva.Externals.Design\obj\Release\UnZipFileDesign.baml
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\BalaReva.Externals.Design\obj\Release\UnZipFileDesign.g.cs
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\BalaReva.Externals.Design\obj\Release\BalaReva.Externals.Design_MarkupCompile.cache
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\BalaReva.Externals.Design\obj\Release\BalaReva.Externals.Design.g.resources
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\BalaReva.Externals.Design\obj\Release\BalaReva.Externals.Design.dll
+C:\TestProject\UiPath\ToOvi\08-09-2018\UiPath Publishment\BalaReva.Externals.Design\obj\Release\BalaReva.Externals.Design.pdb

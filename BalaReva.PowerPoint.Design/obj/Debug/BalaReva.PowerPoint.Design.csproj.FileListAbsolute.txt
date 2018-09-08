@@ -1,0 +1,11 @@
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint.Design\bin\Debug\BalaReva.PowerPoint.Design.dll
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint.Design\bin\Debug\BalaReva.PowerPoint.Design.pdb
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint.Design\obj\Debug\BalaReva.PowerPoint.Design.csprojResolveAssemblyReference.cache
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint.Design\obj\Debug\InsertPictureDesign.baml
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint.Design\obj\Debug\InsertSlideDesign.baml
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint.Design\obj\Debug\InsertPictureDesign.g.cs
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint.Design\obj\Debug\InsertSlideDesign.g.cs
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint.Design\obj\Debug\BalaReva.PowerPoint.Design_MarkupCompile.cache
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint.Design\obj\Debug\BalaReva.PowerPoint.Design.g.resources
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint.Design\obj\Debug\BalaReva.PowerPoint.Design.dll
+C:\TestProject\UiPath Publishment\BalaReva.PowerPoint.Design\obj\Debug\BalaReva.PowerPoint.Design.pdb

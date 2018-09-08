@@ -1,0 +1,8 @@
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\bin\Debug\BalaReva.Externals.Design.dll
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\bin\Debug\BalaReva.Externals.Design.pdb
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Debug\UnZipFileDesign.baml
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Debug\UnZipFileDesign.g.cs
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Debug\BalaReva.Externals.Design_MarkupCompile.cache
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Debug\BalaReva.Externals.Design.g.resources
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Debug\BalaReva.Externals.Design.dll
+C:\TestProject\UiPath Publishment\BalaReva.Externals.Design\obj\Debug\BalaReva.Externals.Design.pdb
